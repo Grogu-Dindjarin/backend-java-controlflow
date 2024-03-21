@@ -11,7 +11,11 @@ public class D_SwitchStatements {
     switch (y) {
       case 1:
         System.out.println("=one");
+        break;
+      case 2:
         System.out.println("=two");
+        break;
+      default:
         System.out.println("!=one && !=two");
     }
 
@@ -26,5 +30,27 @@ public class D_SwitchStatements {
     // Bij geen resultaat print het statement "onbekend".
     String drink = "Mountain Dew";
 
+    switch (drink) {
+      case "Cola":
+        System.out.println("Coca-Cola");
+        break;
+      case "Fanta":
+        System.out.println("Coca-Cola");
+        break;
+      case "Sprite":
+        System.out.println("Coca-Cola");
+        break;
+      case "Pepsi":
+        System.out.println("PepsiCo");
+        break;
+      case "7Up":
+        System.out.println("PepsiCo");
+        break;
+      case "Mountain Dew":
+        System.out.println("PepsiCo");
+        break;
+      default:
+        System.out.println("onbekend");
+    }
   }
 }
